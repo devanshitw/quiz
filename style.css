@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans",sans-serif;
+}
+.content {
+    margin-top: 54px;
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(206,92%, 94%);
+    }
+    .header {
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    }
+    .left-title {
+    width: 159px;
+    color: #fff;
+    font-size: xx-large;
+    float: left;
+    }
+    .right-title {
+    width: 300px;
+    text-align: right;
+    float: right;
+    color: #fff;
+    font-size: xx-large;
+    }
+    .quiz-body {
+    margin-top: 55px;
+    width: 40vw;
+    background-color: #fff;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    }
+    .option-block-container {
+    margin-top: 20px;
+    
+    }
+    .option-block {
+    padding: 10px;
+    background: aliceblue;
+    border: 1px solid #84c5fe;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: xx-large;
+    border-radius: 0.5rem;
+    }
+    .result-question {
+    font-weight: bold;
+    font-size: xx-large;
+    }
+    .c-wrong {
+    margin-left: 20px;
+    color: #ff0000;
+    font-size: large;
+    }
+    .c-correct {
+    margin-left: 20px;
+    color: green;
+    font-size: large;
+    }
+    #question{
+        font-size: xx-large;
+    }
+    .last-row {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    font-size: x-large;
+    }
+    .res-header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    }
+    .btn{
+        width: 130px;
+        cursor: pointer;
+        text-align: center;
+
+    }
+    .ca{
+        font-size: xx-large;
+    }
+    .welcome button{
+        display: block;
+        width: 100%;
+        font-size: 22px;
+        padding: 20px 0;
+        border: none;
+        border-radius: 100px;
+        box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+        transition: 0,4s all;
+    }
+    .welcome button:hover{
+        transform: translateY(-5px);
+    }
